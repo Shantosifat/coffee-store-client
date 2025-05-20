@@ -1,6 +1,9 @@
 import React from "react";
 
 const LogIn = () => {
+  const handleLogin =() =>{
+    
+  }
   return (
         <div className="card bg-base-100 mx-auto max-w-xl shrink-0 shadow-2xl">
           <div className="card-body">
@@ -13,7 +16,7 @@ const LogIn = () => {
               <div>
                 <a className="link link-hover">Forgot password?</a>
               </div>
-              <button className="btn btn-neutral mt-4">Login</button>
+              <button onClick={handleLogin} className="btn btn-neutral mt-4">Login</button>
             </fieldset>
           </div>
         </div>
